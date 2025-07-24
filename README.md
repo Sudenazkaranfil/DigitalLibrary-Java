@@ -27,18 +27,31 @@ Bu proje, aşağıdaki temel OOP prensiplerini uygulamaktadır:
 
 ## Proje Yapısı
 staj/
+
 ├── src/
+
 │   ├── Book.java
+
 │   ├── Category.java
+
 │   ├── Main.java
+
 │   ├── Material.java
+
 │   ├── Movie.java
+
 │   ├── Netflix.java
+
 │   ├── Person.java
+
 │   └── User.java
+
 ├── .idea/                 (IntelliJ IDEA proje ayarları)
+
 ├── out/                   (Derlenmiş Java sınıfları)
+
 ├── lib/                   (Jackson kütüphaneleri: jar dosyaları)
+
 └── README.md              (Bu dosya)
 
 ## Gereksinimler
