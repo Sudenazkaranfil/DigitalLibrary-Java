@@ -57,11 +57,6 @@ staj/
 ## Gereksinimler
 
 * Java Development Kit (JDK) 8 veya daha yeni bir sürüm. (Proje JDK 24 ile test edilmiştir.)
-* Apache Maven veya Gradle (Jackson Databind kütüphanelerini yönetmek için) veya IntelliJ IDEA'nın kendi kütüphane yönetim sistemi.
-    * **Jackson Databind Kütüphanesi:**
-        * `com.fasterxml.jackson.core:jackson-databind:2.17.1`
-        * `com.fasterxml.jackson.core:jackson-core:2.17.1`
-        * `com.fasterxml.jackson.core:jackson-annotations:2.17.1`
 
 ## Nasıl Çalıştırılır
 
@@ -77,12 +72,6 @@ staj/
 
 3.  **Kütüphaneleri Ekleyin:**
     * `File -> Project Structure` (veya `Ctrl+Alt+Shift+S`) yolunu izleyin.
-    * Sol menüden "Libraries" (Kütüphaneler) seçeneğini seçin.
-    * "+" butonuna tıklayın ve "From Maven..." seçeneğini seçin.
-    * Arama kutucuğuna sırasıyla aşağıdaki Jackson kütüphanelerini yazıp ekleyin:
-        * `com.fasterxml.jackson.core:jackson-databind:2.17.1`
-        * `com.fasterxml.jackson.core:jackson-core:2.17.1`
-        * `com.fasterxml.jackson.core:jackson-annotations:2.17.1`
     * "Apply" ve "OK" butonlarına tıklayın.
 
 4.  **Projeyi Yeniden Derleyin:**
@@ -91,4 +80,3 @@ staj/
 5.  **`Main` Sınıfını Çalıştırın:**
     * `src/Main.java` dosyasını açın.
     * `main` metodu içerisinden sağ tıklayarak veya üst menüdeki "Run" butonu aracılığıyla `Main.main()` metodunu çalıştırın.
-    * İlk çalıştırmada `netflix_data.json` dosyası oluşacak ve materyaller eklenecektir. Sonraki çalıştırmalarda veriler dosyadan yüklenecektir.
