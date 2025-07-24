@@ -24,7 +24,6 @@ Bu proje, aşağıdaki temel OOP prensiplerini uygulamaktadır:
     * En düşük ortalama skora sahip filmi bulma.
     * Belirli bir kategoriye ait en pahalı materyali bulma.
     * Belirli bir aktörün oynadığı tüm filmleri listeleme.
-* **Veri Kalıcılığı (Persistence):** Jackson Databind kütüphanesi kullanılarak materyal verileri `netflix_data.json` dosyasına kaydedilir ve program başladığında otomatik olarak yüklenir. Bu sayede program her kapatılıp açıldığında verilerin kaybolması engellenir.
 
 ## Proje Yapısı
 staj/
@@ -40,7 +39,6 @@ staj/
 ├── .idea/                 (IntelliJ IDEA proje ayarları)
 ├── out/                   (Derlenmiş Java sınıfları)
 ├── lib/                   (Jackson kütüphaneleri: jar dosyaları)
-├── netflix_data.json      (Programın kaydettiği veriler)
 └── README.md              (Bu dosya)
 
 ## Gereksinimler
